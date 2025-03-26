@@ -352,8 +352,14 @@ def game_loop():
                         pygame.quit()
                         subprocess.run(["python", "mainmenu.py", username])
                     else:
-                        
-                        
+                        game_over = False
+                        pipes = []
+                        coins.clear()
+                        bird_movement = 0
+                        bird_rect = bird_img.get_rect(center=(67, height // 2))
+                        score_time = True
+                        total_coins = 0  # Reset total coins on restart
+                        break
 
             score = 0
     
