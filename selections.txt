@@ -1,0 +1,5 @@
+Selected Background Index: 0
+Selected Floor Index: 0
+Selected Obstacle Index: 0
+Selected Level Index: 0
+Selected Skin Index: 0
