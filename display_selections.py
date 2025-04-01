@@ -90,7 +90,7 @@ def open_level(selected_skin_index, selected_level_index, username):
     subprocess.run(["python", "level.py", username, str(selected_skin_index), str(selected_level_index)])
 
 # Load background image
-background = pygame.image.load("img54.png")  # Replace with your background image
+background = pygame.image.load("tree.png")  # Replace with your background image
 
 score_font = pygame.font.Font("freesansbold.ttf", 20)  # Define the font
 # Function to handle the smooth skin transition (sliding effect)
@@ -257,7 +257,7 @@ def show_selected_skin_and_level_page(selected_skin_index, selected_level_index)
         selected_obs_index = selected_level_index
 
         # Always fill with the background image first
-        background = bckgs[selected_bckg_index]
+        #background = bckgs[selected_bckg_index]
 
         # Fill the screen with the background
         screen.blit(background, (0, 0))
